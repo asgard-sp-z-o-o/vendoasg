@@ -29,7 +29,7 @@ class Vendo:
 
     def logOutApi(self):
         jsonData = self.getJson(
-            "/json/reply/Autoryzacja_Wyloguj",
+            '/Autoryzacja/Wyloguj',
             {"Token":self.VENDO_TOKEN})
         
     def loginUser(self,user_login, user_pswd):
@@ -40,5 +40,5 @@ class Vendo:
     
     def logOutUser(self):
         jsonData = self.getJson(
-            "/json/reply/WylogujUzytkownikaVendo",
+            '/Autoryzacja/WylogujUzytkownikaVendo',
             {"Token": self.USER_TOKEN})
