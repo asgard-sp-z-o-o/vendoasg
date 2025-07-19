@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vendoasg"
+version = "1.1.0"
+description = "Moduł do Pythona do komunikacji z Vendo API"
+authors = [
+  { name = "Robert Lewandowski", email = "rl89pl@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/asgard-sp-z-o-o/vendoasg"
+"Bug Tracker" = "https://github.com/asgard-sp-z-o-o/vendoasg/issues"
